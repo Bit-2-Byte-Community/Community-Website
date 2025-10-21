@@ -64,7 +64,7 @@ const Archives = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-fuchsia-500 bg-clip-text text-transparent title-glow">
+            <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent title-glow">
               <span data-text="ENDORSEMENTS" className="glitch-text">ENDORSEMENTS</span>
             </h1>
             <div className="text-lg text-cyan-400 font-semibold opacity-90 tracking-widest uppercase">

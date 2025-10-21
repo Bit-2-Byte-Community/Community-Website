@@ -65,13 +65,13 @@
 
 .glitch-text::before {
   animation: glitch-1 0.5s infinite;
-  color: #ff0080;
+  color: rgba(21, 0, 255, 0.345);
   z-index: -1;
 }
 
 .glitch-text::after {
   animation: glitch-2 0.5s infinite;
-  color: #00ffff;
+  color: #1a0475c5;
   z-index: -2;
 }
 
