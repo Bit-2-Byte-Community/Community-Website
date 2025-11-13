@@ -16,6 +16,7 @@ import PastEvents from './pages/PastEvents';
 import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
 import Archives from './pages/Archives'; // ADD THIS IMPORT
+import Projects from './pages/Projects';
 
 const AppContent = () => {
   const location = useLocation();
@@ -85,6 +86,7 @@ const AppContent = () => {
             <Route path="/advisors" element={<Advisors />} />
             <Route path="/team-2024" element={<Team2024 />} /> 
             <Route path="/community" element={<Community />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/maintainers" element={<Maintainers />} />
             <Route path="/upcoming-events" element={<UpcomingEvents />} />
             <Route path="/past-events" element={<PastEvents />} />

@@ -1,0 +1,17 @@
+[
+  {
+    "projectName": "Obi-Watch Kenobi",
+    "projectLogo": "/logo/obiwatchkenobi.jpg",
+    "projectCover": "/cover/obiwatchkenobi.png",
+    "projectDescription": "A lightweight, AI-powered Security Information and Event Management (SIEM) and Endpoint Detection and Response (EDR) application.",
+    "projectMembers": [
+      "Anurag Bhattacharjee",
+      "Promit Choudhary",
+      "Sankhadeep Bhowmik",
+      "Shivaditya Bhattacharya"
+    ],
+    "hackathon": "2024 Hack4Bengal 4.0",
+    "prize": null,
+    "githubLink": "https://github.com/ProSkywalker16/obi-watch-kenobi"
+  }
+]
