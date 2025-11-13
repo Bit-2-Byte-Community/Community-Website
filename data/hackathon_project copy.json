@@ -1,0 +1,75 @@
+[
+  {
+    "projectName": "Website Redesign",
+    "projectLogo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100",
+    "projectCover": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400",
+    "projectDescription": "Complete overhaul of the company website with modern UI/UX design, improved navigation, and mobile responsiveness",
+    "projectMembers": [
+      "Sarah Johnson",
+      "Mike Chen",
+      "Emily Rodriguez",
+      "David Kim"
+    ],
+    "hackathon": "HackTheWeb 2024",
+    "prize": "1st Place - Best Design",
+    "githubLink": "https://github.com/example/website-redesign"
+  },
+  {
+    "projectName": "Mobile App Development",
+    "projectLogo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=100",
+    "projectCover": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400",
+    "projectDescription": "Native iOS and Android application for customer engagement with push notifications and real-time updates",
+    "projectMembers": [
+      "Alex Thompson",
+      "Jessica Park",
+      "Ryan Martinez"
+    ],
+    "hackathon": "MobileHacks 2024",
+    "prize": "2nd Place - Innovation Award",
+    "githubLink": "https://github.com/example/mobile-app"
+  },
+  {
+    "projectName": "Database Migration",
+    "projectLogo": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=100",
+    "projectCover": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400",
+    "projectDescription": "Migration from legacy database system to cloud-based solution with improved scalability and security",
+    "projectMembers": [
+      "Chris Anderson",
+      "Priya Patel",
+      "Tom Wilson",
+      "Lisa Zhang",
+      "Kevin Brown"
+    ],
+    "hackathon": "CloudHack Summit 2024",
+    "prize": null,
+    "githubLink": "https://github.com/example/database-migration"
+  },
+  {
+    "projectName": "Marketing Campaign Q4",
+    "projectLogo": "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=100",
+    "projectCover": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400",
+    "projectDescription": "Multi-channel marketing campaign for product launch including social media, email, and content marketing strategies",
+    "projectMembers": [
+      "Amanda Lee",
+      "James Taylor",
+      "Sophie Martin"
+    ],
+    "hackathon": "MarketingHack 2024",
+    "prize": "Best Strategy Award",
+    "githubLink": "https://github.com/example/marketing-campaign"
+  },
+  {
+    "projectName": "API Integration",
+    "projectLogo": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=100",
+    "projectCover": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400",
+    "projectDescription": "Integration of third-party APIs for payment processing, analytics, and customer relationship management",
+    "projectMembers": [
+      "Daniel Foster",
+      "Maya Singh",
+      "Nathan Cooper"
+    ],
+    "hackathon": "API Fest 2024",
+    "prize": "3rd Place - Technical Excellence",
+    "githubLink": "https://github.com/example/api-integration"
+  }
+]
