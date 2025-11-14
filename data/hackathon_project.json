@@ -1,5 +1,20 @@
 [
   {
+    "projectName": "Hexa Care",
+    "projectLogo": "/logo/hexacare.png",
+    "projectCover": "/cover/hexacare.png",
+    "projectDescription": "Experience advanced helathcare solutions with intelligent diagnostics, personalized care plans power by AI-System trained on medical standards.",
+    "projectMembers": [
+      "Anurag Bhattacharjee",
+      "Mukta Das",
+      "Nanda Lal Das",
+      "Sudipta Sen"
+    ],
+    "hackathon": "2025 HexaFalls",
+    "prize": null,
+    "githubLink": "https://github.com/Tiklu01/Hexa-care"
+  },
+  {
     "projectName": "Obi-Watch Kenobi",
     "projectLogo": "/logo/obiwatchkenobi.jpg",
     "projectCover": "/cover/obiwatchkenobi.png",
