@@ -18,7 +18,7 @@ const teamData = [
   { name: 'Mukta Das', role: 'ZONE LEAD - Web', color: 'blue', details: 'Led the web development track, guiding members through modern web technologies.', linkedin: '#', github: '#' },
   { name: 'Soubhagya Das', role: 'ZONE LEAD - Web 3.0', color: 'blue', details: 'Pioneered the exploration of Web 3.0, blockchain, and decentralized applications.', linkedin: '#', github: '#' },
   { name: 'Aiswariya Das', role: 'HEAD - Social Handles', color: 'purple', details: 'Managed content creation and posting across all official social media platforms.', linkedin: '#', github: '#' },
-  { name: 'Srijon Deyasin', role: 'HEAD - Presentations', color: 'purple', details: 'Designed and curated visually compelling presentations for events and meetings.', linkedin: '#', github: '#' },
+  { name: 'Srijon Deyasin', role: 'HEAD - Content Making', color: 'purple', details: 'Designed and curated visually compelling presentations for events and meetings.', linkedin: '#', github: '#' },
   { name: 'Unnati Narayan', role: 'HEAD - Videography', color: 'purple', details: 'Produced and edited all video content for the community, from event highlights to tutorials.', linkedin: '#', github: '#' },
   { name: 'Abir Mitra', role: 'SPOC', color: 'green', details: 'Served as a Single Point of Contact, facilitating communication and resolving queries.', linkedin: '#', github: '#' },
   { name: 'Jeshmita Chatterjee', role: 'SPOC', color: 'green', details: 'Acted as a key liaison between members and the core team, ensuring clear communication.', linkedin: '#', github: '#' },
@@ -101,8 +101,8 @@ const TeamMemberCard = ({ member }) => {
           <div className={`tech-avatar text-${member.color}-400 border-${member.color}-400`}>
             {getInitials(member.name)}
           </div>
-          <h3 className="font-bold text-white text-2xl text-center">{member.name}</h3>
-          <p className={`text-md text-${member.color}-400/80 uppercase tracking-widest`}>{member.role}</p>
+          <h3 className="font-bold text-white text-xl text-center">{member.name}</h3>
+          <p className={`text-sm text-${member.color}-400/80 uppercase tracking-widest`}>{member.role}</p>
         </div>
 
         {/* Card Back with High-tech look */}
