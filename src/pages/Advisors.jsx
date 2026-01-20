@@ -4,13 +4,13 @@ import { Briefcase } from 'lucide-react';
 
 // Data extracted from your screenshot
 const advisorsData = [
-  { name: 'Kunal Singh', batch: '2019', company: 'Innovaccer' },
-  { name: 'Saswata Mukhopadhyay', batch: '2021', company: 'PwC India' },
-  { name: 'Prithviraj Biswas', batch: '2022', company: 'Accenture' },
-  { name: 'Abir Ganguly', batch: '2024', company: 'Accenture' },
-  { name: 'Adarsh Pandey', batch: '2024', company: 'Indus Engines' },
-  { name: 'Rajib Lochan Nandi', batch: '2024', company: 'TCS' },
-  { name: 'Ishank Mukhopadhyay', batch: '2025', company: 'Accenture' },
+  { name: 'Kunal Singh', batch: '2019', company: 'Innoraft', image: 'https://media.licdn.com/dms/image/v2/D5603AQGOmvgICynBow/profile-displayphoto-scale_200_200/B56ZkG99tAG4Ac-/0/1756758531689?e=1770249600&v=beta&t=ktwfYJks5cahVovJ8z6yycr7QFH-naKDshWi2k23s-Y' },
+  { name: 'Saswata Mukhopadhyay', batch: '2021', company: 'TCS iON', image: 'https://media.licdn.com/dms/image/v2/D5603AQF5WnveiRQnmQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688663275546?e=1770249600&v=beta&t=iO0qauuztkWOsTqaBZnQWKhDVMkXM-Jo3uajiw3kuPI' },
+  { name: 'Prithviraj Biswas', batch: '2022', company: 'Infogain', image: 'https://media.licdn.com/dms/image/v2/D5603AQHJ5uTmfpqtSg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1713251452987?e=1770249600&v=beta&t=LexthU5UFXFSdAw8joHdW70DiyIk9IZq0MIsF0ukA2g' },
+  { name: 'Abir Ganguly', batch: '2024', company: 'Accenture', image: 'https://media.licdn.com/dms/image/v2/D4D03AQGnftXQE4reyQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727411652299?e=1770249600&v=beta&t=60QRZGWeuqjIPsJy9DifxXgVJPoIfyD16RK-HX0mgzU' },
+  { name: 'Adarsh Pandey', batch: '2024', company: 'Index Engines', image: 'https://media.licdn.com/dms/image/v2/D4D03AQEprs86gCZlIA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1715879857986?e=1770249600&v=beta&t=gWC9AIuiMJEmqdQdIfYn_TXj7w9CiR72mZmqdcGhFzQ' },
+  { name: 'Rajib Lochan Nandi', batch: '2024', company: 'TCS', image: 'https://media.licdn.com/dms/image/v2/D5603AQGDDW_42M_XjQ/profile-displayphoto-shrink_200_200/B56ZRrjxKPHsAg-/0/1736971327136?e=1770249600&v=beta&t=1onsVF0_tvGFmlerPaej3OBqd88Rks-QW2wwzj9BiZ4' },
+  { name: 'Ishanjit Mukhopadhyay', batch: '2025', company: 'LTIMindtree', image: 'https://media.licdn.com/dms/image/v2/D5603AQFw4Zsd__CKaw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722106951643?e=1770249600&v=beta&t=b7-DLfSADJLRdCprqEfHQrKN5UzuG8K2Ne0Fq1vgfVM' },
 ];
 
 // --- 3D Parallax Card Component ---
@@ -22,7 +22,7 @@ const AdvisorCard = ({ advisor }) => {
 
   const rotateXSpring = useSpring(useTransform(y, [-100, 100], [10, -10]), { stiffness: 300, damping: 20 });
   const rotateYSpring = useSpring(useTransform(x, [-100, 100], [-10, 10]), { stiffness: 300, damping: 20 });
-  
+
   const avatarX = useTransform(x, [-100, 100], [-15, 15]);
   const avatarY = useTransform(y, [-100, 100], [-15, 15]);
   const textX = useTransform(x, [-100, 100], [10, -10]);
@@ -48,11 +48,24 @@ const AdvisorCard = ({ advisor }) => {
       // UPDATED: Replaced gradient-border with frosted-card and removed card-hover-glow
       className="frosted-card p-6 rounded-2xl text-center flex flex-col items-center h-full"
     >
-      <motion.div 
-        style={{ x: avatarX, y: avatarY }} 
-        className="w-24 h-24 rounded-full mb-4 bg-dark-400 border-2 border-primary-500/50 flex items-center justify-center text-cyan-300 text-3xl font-bold transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]"
+      <motion.div
+        style={{ x: avatarX, y: avatarY }}
+        className="w-24 h-24 rounded-full mb-4 border-2 border-primary-500/50 overflow-hidden bg-dark-400 flex items-center justify-center"
       >
-        {getInitials(advisor.name)}
+        {advisor.image ? (
+          <img
+            src={advisor.image}
+            alt={advisor.name}
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              e.target.style.display = 'none';
+            }}
+          />
+        ) : (
+          <span className="text-cyan-300 text-3xl font-bold">
+            {getInitials(advisor.name)}
+          </span>
+        )}
       </motion.div>
       <motion.div style={{ x: textX, y: textY }} className="flex flex-col items-center">
         <h3 className="text-xl font-bold text-white">{advisor.name}</h3>
