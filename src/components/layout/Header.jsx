@@ -50,7 +50,8 @@ const Header = () => {
     {
       name: 'Community',
       children: [
-        { name: 'Projects', href: '/projects' },
+        { name: 'Hackathons', href: '/projects' },
+        // { name: 'Smart India Hackathon', href: '/sih-projects' },
         { name: 'Discord', href: '/community' },
       ],
     },
