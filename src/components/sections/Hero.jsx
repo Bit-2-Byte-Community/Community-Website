@@ -99,8 +99,8 @@ const Hero = () => {
           >
             {[
               { number: '500+', label: 'Community Members' },
-              { number: '20+', label: 'Events Hosted' },
-              { number: '30+', label: 'Projects Built' },
+              { number: '5+', label: 'Events Hosted' },
+              { number: '50+', label: 'Projects Built' },
             ].map((stat, index) => (
               <motion.div 
                 key={index} 

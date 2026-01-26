@@ -17,6 +17,7 @@ import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
 import Archives from './pages/Archives'; // ADD THIS IMPORT
 import Projects from './pages/Projects';
+import ProjectsSIH from './pages/ProjectsSIH';
 // import Companies from './components/Companies';
 
 const AppContent = () => {
@@ -88,6 +89,7 @@ const AppContent = () => {
             <Route path="/team-2024" element={<Team2024 />} /> 
             <Route path="/community" element={<Community />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path='/sih-projects' element={<ProjectsSIH />} />
             <Route path="/maintainers" element={<Maintainers />} />
             <Route path="/upcoming-events" element={<UpcomingEvents />} />
             <Route path="/past-events" element={<PastEvents />} />
