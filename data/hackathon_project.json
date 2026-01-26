@@ -1,5 +1,35 @@
 [
   {
+    "projectName": "FitCircuit",
+    "projectLogo": "/logo/fitcircuit.webp",
+    "projectCover": "/cover/fircurcuit.png",
+    "projectDescription": "Your Personal Fitness Journey Starts Here, Generic workout and meal plans often don't cater to individual needs and preferences.",
+    "projectMembers": [
+      "Mukta Das",
+      "Nanda Lal Das",
+      "Sudipta Sen",
+      "Sandip Dey"
+    ],
+    "hackathon": "2025 Diversion 2K25",
+    "prize": null,
+    "githubLink": "https://github.com/Tiklu01/FitCircuit"
+  },
+  {
+    "projectName": "Finyx",
+    "projectLogo": "/logo/finyx.webp",
+    "projectCover": "/cover/finyx.jpeg",
+    "projectDescription": "Our project helps users and businesses understand consumer spending habits through data-driven insights and gamification.",
+    "projectMembers": [
+      "Aishika Biswas",
+      "Priyanshu Saha",
+      "Rupanjan Saha",
+      "Subarno Chakraborty"
+    ],
+    "hackathon": "2025 Diversion 2K25",
+    "prize": null,
+    "githubLink": "https://github.com/Kai-972/Finyx-Finance_Manage"
+  },
+  {
     "projectName": "Obi-Watch Kenobi",
     "projectLogo": "/logo/obiwatchkenobi.jpg",
     "projectCover": "/cover/obiwatchkenobi.png",
@@ -30,6 +60,35 @@
     "githubLink": "https://github.com/Tiklu01/Hexa-care"
   },
   {
+    "projectName": "SmartChunk",
+    "projectLogo": "/logo/smartchunk.webp",
+    "projectCover": "/cover/smartchunk.png",
+    "projectDescription": "Think of SmartChunk as a surgeon instead of a butcher. It actually understands your content before making any cuts.",
+    "projectMembers": [
+      "Ayushman Mukherjee",
+      "Priyanshu Saha",
+      "Srijeet Prasad Banerjee"
+    ],
+    "hackathon": "2025 MetaMorph 2K25",
+    "prize": "Runners Up Team",
+    "githubLink": "https://github.com/ayush585/SmartChunk"
+  },
+  {
+    "projectName": "Gagan Dhrishti",
+    "projectLogo": "/logo/gagandhrishti.png",
+    "projectCover": "/cover/gagandhrishti.jpg",
+    "projectDescription": "A robust, cloud-resilient change detection, monitoring and alerting system designed to track critical transformations within any user-defined AOI.",
+    "projectMembers": [
+      "Aharshi Lodh",
+      "Amol Chaurasia",
+      "Rashmita Debnath",
+      "Unnati Narayan"
+    ],
+    "hackathon": "2025 MetaMorph 2K25",
+    "prize": "Best Beginner Team",
+    "githubLink": "https://github.com/unnatinarayan/Gagan-Dhristi"
+  },
+  {
     "projectName": "Flora Fix",
     "projectLogo": "/logo/florafix.png",
     "projectCover": "/cover/florafix.jpg",
@@ -42,6 +101,6 @@
     ],
     "hackathon": "2025 MetaMorph 2K25",
     "prize": null,
-    "githubLink": "https://github.com/Ankana-Sadhukhan/Flora-Fix.git"
+    "githubLink": "https://github.com/Ankana-Sadhukhan/Flora-Fix"
   }
 ]
