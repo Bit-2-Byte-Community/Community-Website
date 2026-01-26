@@ -58,11 +58,11 @@ const About = () => {
           {/* Left Column: Text Content */}
           <motion.div variants={cardVariants}>
              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white relative">
-              About <span className="bg-gradient-to-r from-primary-400 to-cyan-400 bg-clip-text text-transparent">Bit2Byte</span>
+              About <span className="bg-gradient-to-r from-primary-400 to-cyan-400 bg-clip-text text-transparent">Bit-2-Byte</span>
               <span className="absolute -bottom-2 left-0 w-24 h-1 bg-primary-500 rounded-full"></span>
             </h2>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              At Bit2Byte, we are architects of the digital future. Our team of expert developers and creative thinkers is dedicated to pushing the boundaries of innovation, transforming complex challenges into elegant, high-performance solutions.
+              At Bit-2-Byte, we are architects of the digital future. Our team of expert developers and creative thinkers is dedicated to pushing the boundaries of innovation, transforming complex challenges into elegant, high-performance solutions.
             </p>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">

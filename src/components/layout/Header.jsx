@@ -102,7 +102,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 cursor-pointer">
             <img src="/logo.png" alt="Bit2Byte Logo" className="header-logo" />
             <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-fuchsia-500 bg-clip-text text-transparent">
-              Bit2Byte
+              Bit-2-Byte
             </span>
           </Link>
 
