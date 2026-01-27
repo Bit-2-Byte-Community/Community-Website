@@ -6,15 +6,15 @@ const facultyData = [
   { 
     name: 'Dr. Mahamuda Sultana', 
     title: 'Dept. of Computer Science Engineering (CSE)', 
-    image: '#',
-    linkedin: '#',
+    image: 'https://media.licdn.com/dms/image/v2/D5603AQG67AibWRr7Lg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714373474088?e=1770854400&v=beta&t=FGFrpgwLM91ccL0ne_ZivmPivOfynVvghoVo5lBIkIc',
+    linkedin: 'https://www.linkedin.com/in/mahamuda-sultana/',
     email: 'mahamuda.sultana@example.com'
   },
   { 
     name: 'Mr. Tridib Chakraborty', 
     title: 'Dept. of Information Technology (IT)', 
-    image: '#',
-    linkedin: '#',
+    image: 'https://media.licdn.com/dms/image/v2/D4D03AQF7oL4rSI3LuQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1674567537767?e=1770854400&v=beta&t=Z34LLUT_f6Y7VmDN9-E8N-s5U-39OAdWOgd9KJ7_UOo',
+    linkedin: 'https://www.linkedin.com/in/tridib-chakraborty-5617ab35/',
     email: 'tridib.chakraborty@example.com'
   },
 ];

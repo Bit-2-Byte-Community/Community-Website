@@ -10,7 +10,7 @@ const maintainersData = [
     name: 'Anurag Bhattacharjee', 
     aka: 'TronAres', 
     id: 'B2B-M01',
-    imageUrl: 'https://placehold.co/200x200/0d1a2b/93c5fd?text=AB',
+    imageUrl: 'https://media.licdn.com/dms/image/v2/D5603AQHWqz16ljwiuw/profile-displayphoto-scale_400_400/B56ZodJ7SSJYAg-/0/1761425733608?e=1770854400&v=beta&t=chDrs39mSEf5mXCr7w0-jnsLcfOXWIMgbN2LewQ371M',
     status: 'ACTIVE',
     details: {
         designation: 'Lead Systems Architect',
@@ -19,7 +19,7 @@ const maintainersData = [
     },
     socials: {
         github: '#',
-        linkedin: '#',
+        linkedin: 'https://www.linkedin.com/in/anurag-bhattacharjee-65a487275/',
         twitter: '#'
     }
   },
@@ -27,7 +27,7 @@ const maintainersData = [
     name: 'Kaushik Kundu', 
     aka: 'StrawHatPirate', 
     id: 'B2B-M02',
-    imageUrl: 'https://placehold.co/200x200/0d1a2b/93c5fd?text=KK',
+    imageUrl: 'https://media.licdn.com/dms/image/v2/D4D35AQFeWCNfJVevAw/profile-framedphoto-shrink_400_400/B4DZuOogCFKQAc-/0/1767624540740?e=1770105600&v=beta&t=o6Wceg9L9ZuVjr9bHdjsltNIiZt9y-m4FUo4E08ji4g',
     status: 'ACTIVE',
     details: {
         designation: 'Cyber Operations Specialist',
@@ -36,7 +36,7 @@ const maintainersData = [
     },
     socials: {
         github: '#',
-        linkedin: '#',
+        linkedin: 'https://www.linkedin.com/in/kaushik--kundu/',
         twitter: '#'
     }
   },
@@ -44,7 +44,7 @@ const maintainersData = [
     name: 'Rupankar Nandi', 
     aka: 'Alpha-07', 
     id: 'B2B-M03',
-    imageUrl: 'https://placehold.co/200x200/0d1a2b/93c5fd?text=RN',
+    imageUrl: 'https://media.licdn.com/dms/image/v2/C5603AQFstU-A0f4YUA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1617544690004?e=1770854400&v=beta&t=rUR_lC1cc1KjTMHVDum35r-rl1Q5dLbtqevuoknx7ak',
     status: 'RED_ALERT', // RED ALERT TARGET
     details: {
         designation: '[CLASSIFIED] Lead Interceptor',
@@ -54,7 +54,7 @@ const maintainersData = [
     },
     socials: {
         github: '#',
-        linkedin: '#',
+        linkedin: 'https://www.linkedin.com/in/rupankar-nandi-46525420b/',
         twitter: '#'
     }
   },
@@ -62,7 +62,7 @@ const maintainersData = [
     name: 'Avirup Dey', 
     aka: 'Shadow-007', 
     id: 'B2B-M04',
-    imageUrl: 'https://placehold.co/200x200/0d1a2b/93c5fd?text=AD',
+    imageUrl: 'https://media.licdn.com/dms/image/v2/D4D03AQHQZesMj74Q-Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1724296607171?e=1770854400&v=beta&t=q5WxNnsvmG7CYnT0kEXdjua4mU9InjLISnG0Gi_kp38',
     status: 'RED_ALERT', // RED ALERT TARGET
     details: {
         designation: '[CLASSIFIED] Dataflow Exfiltration',
@@ -72,7 +72,7 @@ const maintainersData = [
     },
     socials: {
         github: '#',
-        linkedin: '#',
+        linkedin: 'https://www.linkedin.com/in/avirup-dey-42a855324/',
         twitter: '#'
     }
   },
@@ -80,7 +80,7 @@ const maintainersData = [
     name: 'Arnab Chakraborty', 
     aka: 'Unicorn09', 
     id: 'B2B-M05',
-    imageUrl: 'https://placehold.co/200x200/0d1a2b/93c5fd?text=AC',
+    imageUrl: 'https://media.licdn.com/dms/image/v2/D5603AQGIVlRCaUrJUw/profile-displayphoto-shrink_400_400/B56ZQbUxgXHIAk-/0/1735625219372?e=1770854400&v=beta&t=qKLdYIbu_91ypqNRGaSYw6wfDS0LgOoJ1m8I3D7vDE0',
     status: 'ACTIVE',
     details: {
         designation: 'Backend Systems Engineer',
@@ -89,7 +89,7 @@ const maintainersData = [
     },
     socials: {
         github: '#',
-        linkedin: '#',
+        linkedin: 'https://www.linkedin.com/in/arnab-chakraborty-a55386321/',
         twitter: '#'
     }
   },

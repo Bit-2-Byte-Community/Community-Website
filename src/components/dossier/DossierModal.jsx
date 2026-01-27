@@ -102,8 +102,13 @@ const DossierModal = ({ dossier, onClose }) => {
                                 <div className="dossier-left-panel">
                                     <h4 className="dossier-subject-heading mb-6">SUBJECT FILE</h4>
                                     <div className={`dossier-avatar-container-static ${isRedAlert ? 'red-alert-avatar' : ''}`}>
-                                        <span className="text-6xl font-bold text-blue-300">{getInitials(dossier.name)}</span>
-                                    </div>
+  <img
+    src={dossier.imageUrl}
+    alt={dossier.name}
+    className="w-full h-full object-cover rounded-full"
+  />
+</div>
+
                                     {/* UPDATED: Status Label is dynamic and applies red-alert class */}
                                     <div className={`dossier-status-label ${isRedAlert ? 'red-alert' : ''}`}>
                                         STATUS: {dossier.status}
