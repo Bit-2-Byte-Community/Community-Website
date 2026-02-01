@@ -221,7 +221,7 @@ const TeamMemberCard = ({ member }) => {
       >
         {/* Card Front */}
         <div className="tech-card-face tech-card-front">
-          <div className={`tech-avatar text-${member.color}-400 border-${member.color}-400 overflow-hidden flex items-center justify-center`}>
+          <div className={`tech-avatar text-${member.color}-400 border-4 border-${member.color}-400 overflow-hidden flex items-center justify-center`}>
             {member.image && member.image !== '#' ? (
               <img 
                 src={member.image} 
@@ -294,7 +294,7 @@ const Team2024 = () => {
           className="text-center max-w-4xl mx-auto mb-20"
         >
           <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent title-glow">
-            <span data-text="Team of 2024" className="glitch-text">Team of 2024</span>
+            <span data-text="Generation 1" className="glitch-text">Generation 1</span>
           </h1>
           <p className="text-lg text-gray-300 leading-relaxed">
             The Core Operatives of 2024, responsible for the community's revival and strategic direction. Discover their key roles and contributions below.
