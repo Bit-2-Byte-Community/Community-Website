@@ -102,5 +102,62 @@
     "hackathon": "2025 MetaMorph 2K25",
     "prize": null,
     "githubLink": "https://github.com/Ankana-Sadhukhan/Flora-Fix"
+  },
+  {
+    "projectName": "SolarXplorer",
+    "projectLogo": "/logo/solar.jpg",
+    "projectCover": "/cover/solar.png",
+    "projectDescription": "SolarXplorer is built as an educational constellation as much as an entertainment showcase. From classroom demonstrations to self-guided stargazing sessions, the experience sparks curiosity that extends far beyond the digital realm.",
+    "projectMembers": [
+      "Saikat Das",
+      "Soumyadeep Dey",
+      "Sourish Panda",
+      "Subarna Maity"
+    ],
+    "hackathon": "2025 MLH Open Source Hackfest",
+    "prize": "Winner Auth0 Catagory",
+    "githubLink": "https://github.com/Dronzer2code/solarXplorer"
+  },
+  {
+    "projectName": "Digital Fort Knox",
+    "projectLogo": "/logo/digitalfortknox.png",
+    "projectCover": "/cover/digitalfortknox.jpg",
+    "projectDescription": "Built a $10 ESP32-based network monitor that provides real-time visibility, alerts, and security awareness - making network security accessible to everyone.",
+    "projectMembers": [
+      "Saikat Das",
+      "Tirtharaj Bhattacharya"
+    ],
+    "hackathon": "2025 Cryptonix-V1",
+    "prize": null,
+    "githubLink": "https://github.com/saviour2/fort_knox"
+  },
+  {
+    "projectName": "Atlas Forensic Vault",
+    "projectLogo": "/logo/atlas.png",
+    "projectCover": "/cover/atlas.jpeg",
+    "projectDescription": "Our project streamlines codebase onboarding by replacing static documentation with a functional, interactive analysis interface. Our interactive dashboard automates repository discovery by providing rapid architectural analysis and direct AI-powered interrogation of complex codebases.",
+    "projectMembers": [
+      "Saikat Das",
+      "Soumyadeep Dey",
+      "Subarna Maity"
+    ],
+    "hackathon": "2025 Impetus - GDGoC IEM",
+    "prize": null,
+    "githubLink": "https://github.com/SoumyaEXE/Atlas-Forensic-Vault"
+  },
+  {
+    "projectName": "Nexora",
+    "projectLogo": "/logo/nexora.png",
+    "projectCover": "",
+    "projectDescription": "Nexora is a simulation-first Web3 copilot that lets users describe intent in plain English and see a clear, explainable transaction plan with simulations—so they know exactly what they’re approving before they sign.",
+    "projectMembers": [
+      "Abhishek",
+      "Sourav Rajak",
+      "Raunak Kumar",
+      "Vishal Kumar Mahato"
+    ],
+    "hackathon": "2026 Ranchi Hacks - GDG Ranchi",
+    "prize": null,
+    "githubLink": "https://github.com/VishalMahato/Nexora-AI"
   }
 ]

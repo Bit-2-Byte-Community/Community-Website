@@ -137,7 +137,7 @@ const MaintainerCard = ({ maintainer, index, onDecrypt }) => {
                     <div className="dossier-icon">
                         <Lock size={40} />
                     </div>
-                    <h3 className="dossier-name">{maintainer.name}</h3>
+                    <h4 className="dossier-name text-2xl">{maintainer.name}</h4>
                     <p className="dossier-aka">{maintainer.aka}</p>
                     <div className="dossier-divider"></div>
                     <p className={`dossier-protocol ${isRedAlert ? 'text-red-400' : 'text-cyan-400'}`}>

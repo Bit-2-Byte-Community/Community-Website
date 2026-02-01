@@ -37,7 +37,7 @@ const Header = () => {
       children: [
         { name: 'Faculty', href: '/faculty' },
         { name: 'Advisors', href: '/advisors' },
-        { name: 'Team of 2024', href: '/team-2024' },
+        { name: 'Generation 1', href: '/gen-1' },
       ],
     },
     {
@@ -50,7 +50,7 @@ const Header = () => {
     {
       name: 'Community',
       children: [
-        { name: 'Hackathons', href: '/projects' },
+        { name: 'Projects', href: '/projects' },
         // { name: 'Smart India Hackathon', href: '/sih-projects' },
         { name: 'Discord', href: '/community' },
       ],
@@ -152,7 +152,7 @@ const Header = () => {
         ref={audioRef} 
         loop
         // src="/Cyberpunk2077.mp3"
-        src="/nine-inch-nails-as-alive-as-you-need-me-to-be.m4a"
+        src="/nsync-bye-bye-bye.m4a"
       />
       <motion.button 
         whileHover={{ scale: 1.1 }} 

@@ -5,6 +5,8 @@ import { Briefcase } from 'lucide-react';
 // Data extracted from your screenshot
 const advisorsData = [
   { name: 'Kunal Singh', batch: '2019', company: 'Innoraft', image: 'https://media.licdn.com/dms/image/v2/D5603AQGOmvgICynBow/profile-displayphoto-scale_200_200/B56ZkG99tAG4Ac-/0/1756758531689?e=1770249600&v=beta&t=ktwfYJks5cahVovJ8z6yycr7QFH-naKDshWi2k23s-Y' },
+  { name: 'Dhiren Lalwani', batch: '2020', company: 'Cognizant', image: 'https://media.licdn.com/dms/image/v2/D5635AQGVoDSctYDPQw/profile-framedphoto-shrink_400_400/B56Zf0kb0BHYAg-/0/1752154881608?e=1770246000&v=beta&t=LCpCIGOhDcD0OE4j7XGkESo6gDuxoQWWLzkIfqV-5So' },
+  { name: 'Faraz Ali', batch: '2020', company: '', image: 'https://media.licdn.com/dms/image/v2/C4E03AQEKLTw2ANmU6A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1609344732814?e=1771459200&v=beta&t=x4iPadVOwuNSNTXxFeNDpSNhOL-NFfSZLZyJPWsLjrc' },
   { name: 'Saswata Mukhopadhyay', batch: '2021', company: 'TCS iON', image: 'https://media.licdn.com/dms/image/v2/D5603AQF5WnveiRQnmQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688663275546?e=1770249600&v=beta&t=iO0qauuztkWOsTqaBZnQWKhDVMkXM-Jo3uajiw3kuPI' },
   { name: 'Prithviraj Biswas', batch: '2022', company: 'Infogain', image: 'https://media.licdn.com/dms/image/v2/D5603AQHJ5uTmfpqtSg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1713251452987?e=1770249600&v=beta&t=LexthU5UFXFSdAw8joHdW70DiyIk9IZq0MIsF0ukA2g' },
   { name: 'Abir Ganguly', batch: '2024', company: 'Accenture', image: 'https://media.licdn.com/dms/image/v2/D4D03AQGnftXQE4reyQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727411652299?e=1770249600&v=beta&t=60QRZGWeuqjIPsJy9DifxXgVJPoIfyD16RK-HX0mgzU' },
